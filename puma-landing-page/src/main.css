@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  min-height: 100vh;
+}
+
+/* Webkit browsers (Chrome, Safari, newer versions of Opera) */
+.scroller::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroller::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
+.scroller::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Firefox */
+.scroller {
+  scrollbar-width: thin;
+  scrollbar-color: #000#f1f1f1;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+body.no-scroll #hamburger {
+  display: none;
+}
+
+body.no-scroll #close {
+  display: block;
+}
+
+.cutout-detach {
+  transition: transform 0.3s ease-in-out;
+  transform: rotateX(90deg);
+  transform-origin: top;
+}
+
+.cutout:hover .cutout-detach {
+  transform: rotateX(0);
+}
+
+.cutout:hover span {
+  border-bottom-color: #8a7350;
+}
+
+.griddy {
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1rem;
+}
+
+.ghostbusters-bg {
+  background-image: url(/images/Ghostbusters.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bluegradient-bg {
+  background-image: url(/images/blue-gradient.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.manwithlocs-bg {
+  background-image: url(/images/man\ with\ locs.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.collection-item {
+  width : clamp(183px, 20vw, 352px);
+  height: clamp(183px, 20vw, 352px);
+}
+
+.collection-title {
+  width : clamp(183px, 20vw, 352px);
+}
+
+.woc-gradient {
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));
+}
+
+.hide-menu {
+  display: none;
+}
+
+#mobileMenu {
+  min-height: calc(100vh - 64px);
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1024px){
+  .griddy-2 {
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-column-gap: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1023px){
+  .drop-down ~ * {
+    display: none;
+    }
+}
+
+@media only screen and (min-width: 768px){
+  .hide-main{
+  display: none;
+  }
+  }
+  
+  
+  @media only screen and (max-width: 767px){
+  .hide-main{
+  display: block;
+  }
+  }
+  
+
+

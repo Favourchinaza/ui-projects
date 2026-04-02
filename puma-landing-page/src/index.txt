@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <title>Puma Landing Page</title>
+  </head>
+  <body class="bg-white">
+    <aside class="items-center hidden lg:flex bg-[rgb(138,115,80)]">
+      <div class="flex space-x-4 p-3 mx-auto text-center">
+        <h1 class="uppercase font-semibold text-sm text-white">
+          Free shipping and easy returns
+        </h1>
+        <a
+          href="https//www.google.com"
+          class="text-white border-b-white border-b font-semibold uppercase text-sm"
+          >See Details</a
+        >
+      </div>
+    </aside>
+
+    <nav class="bg-[rgb(24,24,24)] relative">
+      <!-- Desktop Nav Menu -->
+      <div class="px-8 mx-auto max-w-[1500px] min-h-[80px] hidden xl:flex">
+        <a href="/" class="min-h-full flex items-center mr-12">
+          <img src="/images/Puma.svg" alt="" width="32" height="32" />
+        </a>
+        <div class="cutout">
+          <a href="#" class="min-h-full flex items-center mr-8">
+            <span class="text-white font-medium border-b-2 border-b-transparent hover:border-b-2 text-lg">
+              Women
+            </span>
+          </a>
+          <div class="cutout-detach top-[80px] absolute left-0 right-0 min-h-[40vh] bg-white">
+            <div class="px-8 mx-auto max-w-[1500px] grid griddy pt-12">
+              <div>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">Launch Calendar</a>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">New Arrivals</a>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">Best Sellers</a>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">Fall Shop</a>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">Moody Looks</a>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">NYC Fanshop</a>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">Shop The Looks</a>
+                <a href="#" class="block font-semibold text-gray-500 text-lg hover:text-[#8a7350] pb-2">Shop All Womens</a>
+                <a href="#" class="block font-semibold text-red-500 text-lg hover:text-[#8a7350] pb-2">SALE</a>
+              </div>
+              <div>
+                <a href="#" class="block font-bold text-black text-lg hover:text-[#8a7350] pb-2 border-b-black border-b-2">Shoes</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-4">Classics</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Lifestyle</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Speedcat</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Slides &amp; Sandals</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">GV Special</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Palermo</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Rider</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Suede</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Suede XL</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">RS</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Boots &amp; Mids</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Running</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Training &amp; Gym</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Basketball</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Motorsport</a>
+                <a href="#" class="block font-normal text-gray-400 text-sm hover:text-black pt-2">Soccer Cleats</a>
+              </div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flex items-center ml-auto">
+          <button
+            href=""
+            class="ml-auto flex items-center justify-center text-white border border-[rgba(255,255,255,0.4)] px-5 py-2 hover:border-white mr-4"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p class="uppercase ml-3 font-medium">Search</p>
+          </button>
+          <a
+            href=""
+            class="flex items-center justify-center rounded-full w-10 h-10 hover:bg-zinc-600 mr-4"
+          >
+            <i class="fa-regular fa-heart text-white"></i>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center rounded-full w-10 h-10 hover:bg-zinc-600 mr-4"
+          >
+            <i class="fa-solid fa-cart-shopping text-white"></i>
+          </a>
+          <a
+            href=""
+            class="flex items-center justify-center rounded-full w-10 h-10 hover:bg-zinc-600"
+          >
+            <i class="fa-regular fa-user text-white"></i>
+          </a>
+        </div>
+      </div>
+      <!-- Mobile nav menu -->
+      <div class="flex items-center justify-between xl:hidden min-h-[60px]">
+        <div
+          class="flex text-white flex-row items-center p-5 basis-[100px] shrink-0"
+        >
+          <button>
+            <i class="fa-solid fa-bars text-lg scale-x-150"></i>
+          </button>
+          <button class="ml-6">
+            <i class="fa-solid fa-magnifying-glass text-lg"></i>
+          </button>
+        </div>
+        <div class="">
+          <img src="/images/Puma.svg" alt="" width="45" height="45" />
+        </div>
+        <div class="flex flex-row items-center p-5 basis-[100px] shrink-0">
+          <a href="#">
+            <i class="fa-regular fa-user text-white"></i>
+          </a>
+          <a href="#" class="ml-6">
+            <i class="fa-solid fa-cart-shopping text-white"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
